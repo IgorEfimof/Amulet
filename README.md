@@ -92,9 +92,9 @@
             </div>
             <div class="product">
                 <img src="https://i.imgur.com/10OSV2Z.jpeg/300x200" alt="Браслет 6">
-                <h2>Браслет "Сила духа"</h2>
+                <h2>Браслет "Дарующий Удачу"</h2>
                 <p>Помогает сохранять уверенность и стойкость.</p>
-                <p><strong>Цена: 1900 руб.</strong></p>
+                <p><strong>Цена: 590 руб.</strong></p>
                 <a href="https://t.me/IgEfR" class="button">Заказать</a>
             </div>
         </div>
