@@ -66,7 +66,7 @@
                 <img src="https://i.imgur.com/E7bluXe.jpeg/300x200" alt="Браслет 2">
                 <h2>Браслет "Тень и Пламя"</h2>
                 <p>Мощный оберег для уверенности и силы.</p>
-                <p><strong>Цена: 1800 руб.</strong></p>
+                <p><strong>Цена: 590 руб.</strong></p>
                 <a href="https://t.me/IgEfR" class="button">Заказать</a>
             </div>
             <div class="product">
