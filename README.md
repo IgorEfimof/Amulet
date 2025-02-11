@@ -78,9 +78,9 @@
             </div>
             <div class="product">
                 <img src="https://i.imgur.com/NN5a7Nq.jpeg/300x200" alt="Браслет 4">
-                <h2>Браслет "Огонь души"</h2>
+                <h2>Браслет "Светлая Нить"</h2>
                 <p>Талисман страсти и решимости.</p>
-                <p><strong>Цена: 1600 руб.</strong></p>
+                <p><strong>Цена: 390 руб.</strong></p>
                 <a href="https://t.me/IgEfR" class="button">Заказать</a>
             </div>
             <div class="product">
