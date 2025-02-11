@@ -71,9 +71,9 @@
             </div>
             <div class="product">
                 <img src="https://i.imgur.com/STeB3WV.jpeg/300x200" alt="Браслет 3">
-                <h2>Браслет "Энергия земли"</h2>
+                <h2>Браслет "Северный страж"</h2>
                 <p>Сила природы в каждой нити.</p>
-                <p><strong>Цена: 1700 руб.</strong></p>
+                <p><strong>Цена: 790 руб.</strong></p>
                 <a href="https://t.me/IgEfR" class="button">Заказать</a>
             </div>
             <div class="product">
