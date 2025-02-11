@@ -63,7 +63,7 @@ html lang="ru">
                 <p><strong>Цена: 1500 руб.</strong></p>
          </div>
             <div class="product">
-                <img src="https://via.placeholder.com/300x200" alt="Браслет 2">
+                <img src="https://i.imgur.com/E7bluXe.jpeg/300x200" alt="Браслет 2">
                 <h2>Браслет "Защита воина"</h2>
                 <p>Мощный оберег для уверенности и силы.</p>
                 <p><strong>Цена: 1800 руб.</strong></p>
