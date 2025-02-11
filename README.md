@@ -19,6 +19,9 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
         }
+        .product {
+            margin-bottom: 20px;
+        }
         .product img {
             width: 100%;
             border-radius: 10px;
@@ -56,11 +59,52 @@
 <body>
     <div class="container">
         <h1>Стильные Плетеные Браслеты</h1>
+        
         <div class="product">
-            <img src="https://via.placeholder.com/600x400" alt="Браслет">
+            <img src="https://via.placeholder.com/600x400" alt="Браслет 1">
             <h2>Браслет "Сила природы"</h2>
             <p>Ручная работа, натуральные материалы, оберег.</p>
             <p><strong>Цена: 1500 руб.</strong></p>
+            <a href="https://t.me/yourtelegram" class="button">Заказать в Telegram</a>
+        </div>
+        
+        <div class="product">
+            <img src="https://via.placeholder.com/600x400" alt="Браслет 2">
+            <h2>Браслет "Защита воина"</h2>
+            <p>Мощный оберег для уверенности и силы.</p>
+            <p><strong>Цена: 1800 руб.</strong></p>
+            <a href="https://t.me/yourtelegram" class="button">Заказать в Telegram</a>
+        </div>
+        
+        <div class="product">
+            <img src="https://via.placeholder.com/600x400" alt="Браслет 3">
+            <h2>Браслет "Энергия земли"</h2>
+            <p>Сила природы в каждой нити.</p>
+            <p><strong>Цена: 1700 руб.</strong></p>
+            <a href="https://t.me/yourtelegram" class="button">Заказать в Telegram</a>
+        </div>
+        
+        <div class="product">
+            <img src="https://via.placeholder.com/600x400" alt="Браслет 4">
+            <h2>Браслет "Огонь души"</h2>
+            <p>Талисман страсти и решимости.</p>
+            <p><strong>Цена: 1600 руб.</strong></p>
+            <a href="https://t.me/yourtelegram" class="button">Заказать в Telegram</a>
+        </div>
+        
+        <div class="product">
+            <img src="https://via.placeholder.com/600x400" alt="Браслет 5">
+            <h2>Браслет "Лунный свет"</h2>
+            <p>Мягкость и гармония в каждом движении.</p>
+            <p><strong>Цена: 1400 руб.</strong></p>
+            <a href="https://t.me/yourtelegram" class="button">Заказать в Telegram</a>
+        </div>
+        
+        <div class="product">
+            <img src="https://via.placeholder.com/600x400" alt="Браслет 6">
+            <h2>Браслет "Сила духа"</h2>
+            <p>Помогает сохранять уверенность и стойкость.</p>
+            <p><strong>Цена: 1900 руб.</strong></p>
             <a href="https://t.me/yourtelegram" class="button">Заказать в Telegram</a>
         </div>
     </div>
