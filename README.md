@@ -70,7 +70,7 @@ html lang="ru">
                 <a href="https://t.me/IgEfR" class="button">Заказать</a>
             </div>
             <div class="product">
-                <img src="https://via.placeholder.com/300x200" alt="Браслет 3">
+                <img src="https://i.imgur.com/STeB3WV.jpeg/300x200" alt="Браслет 3">
                 <h2>Браслет "Энергия земли"</h2>
                 <p>Сила природы в каждой нити.</p>
                 <p><strong>Цена: 1700 руб.</strong></p>
