@@ -70,34 +70,46 @@
                 <h2>Браслет "Сила природы"</h2>
                 <p>Ручная работа, натуральные материалы, оберег.</p>
                 <p><strong>Цена: 1500 руб.</strong></p>
-                <a href="#" class="button" onclick="loadImageAndOpenTelegram(event, 'https://via.placeholder.com/300x200', 'https://t.me/IgEfR')">Заказать</a>
+                <a href="#" class="button" onclick="loadImageAndOpenTelegram(event, 'Браслет "Сила природы"', 'https://i.imgur.com/9dMebEx.jpeg/300x200', 'https://t.me/IgEfR')">Заказать</a>
             </div>
             <div class="product">
                 <img src="https://via.placeholder.com/300x200" alt="Браслет 2" id="bracelet2">
                 <h2>Браслет "Защита воина"</h2>
                 <p>Мощный оберег для уверенности и силы.</p>
                 <p><strong>Цена: 1800 руб.</strong></p>
-                <a href="#" class="button" onclick="loadImageAndOpenTelegram(event, 'https://via.placeholder.com/300x200', 'https://t.me/IgEfR')">Заказать</a>
+                <a href="#" class="button" onclick="loadImageAndOpenTelegram(event, 'Браслет "Защита воина"', 'https://via.placeholder.com/300x200', 'https://t.me/IgEfR')">Заказать</a>
             </div>
-            <!-- Другие браслеты -->
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200" alt="Браслет 3" id="bracelet3">
+                <h2>Браслет "Энергия земли"</h2>
+                <p>Сила природы в каждой нити.</p>
+                <p><strong>Цена: 1700 руб.</strong></p>
+                <a href="#" class="button" onclick="loadImageAndOpenTelegram(event, 'Браслет "Энергия земли"', 'https://via.placeholder.com/300x200', 'https://t.me/IgEfR')">Заказать</a>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200" alt="Браслет 4" id="bracelet4">
+                <h2>Браслет "Огонь души"</h2>
+                <p>Талисман страсти и решимости.</p>
+                <p><strong>Цена: 1600 руб.</strong></p>
+                <a href="#" class="button" onclick="loadImageAndOpenTelegram(event, 'Браслет "Огонь души"', 'https://via.placeholder.com/300x200', 'https://t.me/IgEfR')">Заказать</a>
+            </div>
         </div>
         <div class="order-container">
             <h3>Вы выбрали:</h3>
+            <p id="orderName"></p>
             <img id="orderImage" src="" alt="Изображение браслета не выбрано" style="visibility: hidden;">
         </div>
     </div>
 
     <script>
-        function loadImageAndOpenTelegram(event, imageUrl, telegramLink) {
+        function loadImageAndOpenTelegram(event, braceletName, imageUrl, telegramLink) {
             // Останавливаем стандартное поведение ссылки (переход по странице)
             event.preventDefault();
             
-            // Заменяем изображение в контейнере на выбранное
-            var imgElement = document.getElementById('orderImage');
-            
-            // Делаем картинку видимой, если она скрыта
-            imgElement.style.visibility = 'visible';
-            imgElement.src = imageUrl;
+            // Заменяем изображение и название в контейнере на выбранное
+            document.getElementById('orderImage').src = imageUrl;
+            document.getElementById('orderImage').style.visibility = 'visible';
+            document.getElementById('orderName').textContent = braceletName;
             
             // Открываем ссылку на Telegram в новой вкладке
             window.open(telegramLink, '_blank');
@@ -105,4 +117,3 @@
     </script>
 </body>
 </html>
-
