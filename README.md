@@ -84,7 +84,7 @@ html lang="ru">
                 <a href="https://t.me/IgEfR" class="button">Заказать</a>
             </div>
             <div class="product">
-                <img src="https://via.placeholder.com/300x200" alt="Браслет 5">
+                <img src="https://i.imgur.com/HgEqRve.jpeg/300x200" alt="Браслет 5">
                 <h2>Браслет "Лунный свет"</h2>
                 <p>Мягкость и гармония в каждом движении.</p>
                 <p><strong>Цена: 1400 руб.</strong></p>
