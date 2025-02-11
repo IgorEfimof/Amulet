@@ -66,18 +66,18 @@
         <h1>Стильные Плетеные Браслеты</h1>
         <div class="products">
             <div class="product">
-                <img src="https://i.imgur.com/9dMebEx.jpeg/300x200" alt="Браслет 1" id="bracelet1">
+                <img src="https://via.placeholder.com/300x200" alt="Браслет 1" id="bracelet1">
                 <h2>Браслет "Сила природы"</h2>
                 <p>Ручная работа, натуральные материалы, оберег.</p>
                 <p><strong>Цена: 1500 руб.</strong></p>
-                <a href="#" class="button" onclick="loadImage(event, 'https://via.placeholder.com/300x200')">Заказать</a>
+                <a href="#" class="button" onclick="loadImageAndOpenTelegram(event, 'https://via.placeholder.com/300x200', 'https://t.me/IgEfR')">Заказать</a>
             </div>
             <div class="product">
                 <img src="https://via.placeholder.com/300x200" alt="Браслет 2" id="bracelet2">
                 <h2>Браслет "Защита воина"</h2>
                 <p>Мощный оберег для уверенности и силы.</p>
                 <p><strong>Цена: 1800 руб.</strong></p>
-                <a href="#" class="button" onclick="loadImage(event, 'https://via.placeholder.com/300x200')">Заказать</a>
+                <a href="#" class="button" onclick="loadImageAndOpenTelegram(event, 'https://via.placeholder.com/300x200', 'https://t.me/IgEfR')">Заказать</a>
             </div>
             <!-- Другие браслеты -->
         </div>
@@ -88,12 +88,15 @@
     </div>
 
     <script>
-        function loadImage(event, imageUrl) {
-            // Останавливаем стандартное поведение ссылки
+        function loadImageAndOpenTelegram(event, imageUrl, telegramLink) {
+            // Останавливаем стандартное поведение ссылки (переход по странице)
             event.preventDefault();
             
             // Заменяем изображение в контейнере на выбранное
             document.getElementById('orderImage').src = imageUrl;
+            
+            // Открываем ссылку на Telegram в новой вкладке
+            window.open(telegramLink, '_blank');
         }
     </script>
 </body>
