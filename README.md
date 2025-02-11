@@ -83,7 +83,7 @@
         </div>
         <div class="order-container">
             <h3>Вы выбрали:</h3>
-            <img id="orderImage" src="" alt="Изображение браслета не выбрано">
+            <img id="orderImage" src="" alt="Изображение браслета не выбрано" style="visibility: hidden;">
         </div>
     </div>
 
@@ -93,7 +93,11 @@
             event.preventDefault();
             
             // Заменяем изображение в контейнере на выбранное
-            document.getElementById('orderImage').src = imageUrl;
+            var imgElement = document.getElementById('orderImage');
+            
+            // Делаем картинку видимой, если она скрыта
+            imgElement.style.visibility = 'visible';
+            imgElement.src = imageUrl;
             
             // Открываем ссылку на Telegram в новой вкладке
             window.open(telegramLink, '_blank');
