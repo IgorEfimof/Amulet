@@ -57,9 +57,9 @@
         <div class="products">
             <div class="product">
                 <img src="https://i.imgur.com/9dMebEx.jpeg/300x200" alt="Браслет 1">
-                <h2>Браслет "Сила природы"</h2>
+                <h2>Браслет "Шепот Земли"</h2>
                 <p>Ручная работа, натуральные материалы, оберег.</p>
-                <p><strong>Цена: 1500 руб.</strong></p>
+                <p><strong>Цена: 590 руб.</strong></p>
                 <a href="https://t.me/IgEfR" class="button">Заказать</a>
          </div>
             <div class="product">
