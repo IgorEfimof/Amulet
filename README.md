@@ -61,7 +61,7 @@ html lang="ru">
                 <h2>Браслет "Сила природы"</h2>
                 <p>Ручная работа, натуральные материалы, оберег.</p>
                 <p><strong>Цена: 1500 руб.</strong></p>
-                <a href="https://t.me/IgEfR" class="button">Заказать</a>
+                <a href="#" class="button" onclick="loadImageAndOpenTelegram(event, 'Браслет \"Энергия земли\"', 'https://i.imgur.com/9dMebEx.jpeg/300x200', 'https://t.me/IgEfR')">Заказать</a>
             </div>
             <div class="product">
                 <img src="https://via.placeholder.com/300x200" alt="Браслет 2">
