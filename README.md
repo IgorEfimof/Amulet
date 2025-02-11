@@ -77,7 +77,7 @@
                 <h2>Браслет "Защита воина"</h2>
                 <p>Мощный оберег для уверенности и силы.</p>
                 <p><strong>Цена: 1800 руб.</strong></p>
-                <a href="#" class="button" onclick="loadImageAndOpenTelegram(event, 'Браслет \"Защита воина\"', 'https://via.placeholder.com/300x200', 'https://t.me/IgEfR')">Заказать</a>
+                <a href class="button" onclick="loadImageAndOpenTelegram(event, 'Браслет \"Защита воина\"', 'https://via.placeholder.com/300x200', 'https://t.me/IgEfR')">Заказать</a>
             </div>
             <div class="product">
                 <img src="https://via.placeholder.com/300x200" alt="Браслет 3">
