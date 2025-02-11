@@ -70,14 +70,14 @@
                 <h2>Браслет "Сила природы"</h2>
                 <p>Ручная работа, натуральные материалы, оберег.</p>
                 <p><strong>Цена: 1500 руб.</strong></p>
-                <a href="#" class="button" onclick="loadImage('https://via.placeholder.com/300x200')">Заказать</a>
+                <a href="#" class="button" onclick="loadImage(event, 'https://via.placeholder.com/300x200')">Заказать</a>
             </div>
             <div class="product">
                 <img src="https://via.placeholder.com/300x200" alt="Браслет 2" id="bracelet2">
                 <h2>Браслет "Защита воина"</h2>
                 <p>Мощный оберег для уверенности и силы.</p>
                 <p><strong>Цена: 1800 руб.</strong></p>
-                <a href="#" class="button" onclick="loadImage('https://via.placeholder.com/300x200')">Заказать</a>
+                <a href="#" class="button" onclick="loadImage(event, 'https://via.placeholder.com/300x200')">Заказать</a>
             </div>
             <!-- Другие браслеты -->
         </div>
@@ -88,7 +88,10 @@
     </div>
 
     <script>
-        function loadImage(imageUrl) {
+        function loadImage(event, imageUrl) {
+            // Останавливаем стандартное поведение ссылки
+            event.preventDefault();
+            
             // Заменяем изображение в контейнере на выбранное
             document.getElementById('orderImage').src = imageUrl;
         }
