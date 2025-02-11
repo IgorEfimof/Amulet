@@ -9,6 +9,7 @@
             text-align: center;
             background-color: #f8f8f8;
             padding: 20px;
+            margin: 0;
         }
         .container {
             max-width: 800px;
@@ -21,6 +22,8 @@
         .product img {
             width: 100%;
             border-radius: 10px;
+            max-width: 600px;
+            height: auto;
         }
         .button {
             display: inline-block;
@@ -30,6 +33,23 @@
             color: white;
             text-decoration: none;
             border-radius: 5px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+                padding: 15px;
+            }
+            .product img {
+                max-width: 100%;
+            }
+        }
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5em;
+            }
+            .button {
+                padding: 8px 16px;
+            }
         }
     </style>
 </head>
