@@ -60,6 +60,7 @@
                 <h2>Браслет "Сила природы"</h2>
                 <p>Ручная работа, натуральные материалы, оберег.</p>
                 <p><strong>Цена: 1500 руб.</strong></p>
+                <a href="https://t.me/IgEfR" class="button">Заказать</a>
          </div>
             <div class="product">
                 <img src="https://i.imgur.com/E7bluXe.jpeg/300x200" alt="Браслет 2">
@@ -99,4 +100,3 @@
         </div>
     </div>
 </body>
-</html>
