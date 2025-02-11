@@ -57,7 +57,7 @@
         <h1>Стильные Плетеные Браслеты</h1>
         <div class="products">
             <div class="product">
-                <img src="https://via.placeholder.com/300x200" alt="Браслет 1">
+                <img src="https://i.imgur.com/9dMebEx.jpeg/300x200" alt="Браслет 1">
                 <h2>Браслет "Сила природы"</h2>
                 <p>Ручная работа, натуральные материалы, оберег.</p>
                 <p><strong>Цена: 1500 руб.</strong></p>
